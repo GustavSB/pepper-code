@@ -1,0 +1,19 @@
+Overview of the keyboard keys in use and the attached number of the key
+
+NOTICE:
+pynput.keyboard.Key for special keys - such as: up, down, left, f1, f2, etc.
+pynput.keyboard.KeyCode for normal alphanumeric keys - such as a, b, c, d, 1, 2, 3, etc
+
+stop    -   ENUM: None                  VALUE: 0
+up      -   ENUM: keyboard.Key.up       VALUE: 1
+down    -   ENUM: keyboard.Key.down     VALUE: 2
+left    -   ENUM: keyboard.Key.left     VALUE: 3
+right   -   ENUM: keyboard.Key.right    VALUE: 4
+greet   -   ENUM: keyboard.Key.f1       VALUE: 5
+hello   -   ENUM: keyboard.Key.f2       VALUE: 6
+static  -   ENUM: keyboard.Key.f3       VALUE: 7
+dynamic -   ENUM: keyboard.Key.f4       VALUE: 8
+killer  -   ENUM: keyboard.Key.none     VALUE: 9  - NOT BOUND
+passive -   ENUM: keyboard.Key.none     VALUE: 10 - NOT BOUND
+status  -   ENUM: keyboard.Key.none     VALUE: 11 - NOT IMPLEMENTED
+
